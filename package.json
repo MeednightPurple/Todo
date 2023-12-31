@@ -1,0 +1,15 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MeednightPurple",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  }
+}

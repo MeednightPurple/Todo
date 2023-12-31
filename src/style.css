@@ -1,0 +1,119 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.app {
+    width: 50vh;
+    height: 80vh;
+    padding: 2rem;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+.app-header {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.app-content {
+    padding: 32px 0;
+}
+
+.add-task {
+    display: flex;
+    flex-direction: column;
+    outline:2px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    padding: 24px;
+    margin: 24px 0;
+}
+
+.task-priorities {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+
+.todo-item {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    gap: 16px;
+    padding: 24px;
+    border-radius: 12px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+    cursor: pointer;
+    padding: 8px 24px;
+    border-radius: 4px;
+    transition: all 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+    background-color: rgb(114, 27, 148);
+    color: white;
+}
+
+.urgent {
+    background-color: rgb(139, 16, 16);
+    color: white;
+}
+
+.high {
+    background-color: rgb(221, 69, 22);
+    color: white;
+}
+
+.medium {
+    background-color: rgb(71, 128, 25);
+    color: white;
+}
+
+.low {
+    background-color: rgb(28, 31, 223);
+    color: white;
+}
+
+.btn:hover {
+    box-shadow: inset 0 0 24px rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.input {
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input.task-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
