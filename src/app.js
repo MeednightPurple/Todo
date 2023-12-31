@@ -9,7 +9,6 @@ function showAddTask() {
         addTask.style.display = "none";
         addBtn.textContent = "Add";
     }
-
 }
 
 window.onload = () => {
