@@ -24,32 +24,17 @@
         </div>
         <div class="app-content">
             <div class="add-task" id="add-task">
-                <input class="input task-title" type="text" placeholder="Task">
+                <input class="input task-title" type="text" placeholder="Task" id="task-input">
                 <div class="task-priorities">
                     <h5>Priority:</h5>
-                    <button class="btn urgent">Urgent</button>
-                    <button class="btn high">High</button>
-                    <button class="btn medium">Medium</button>
-                    <button class="btn low">Low</button>
+                    <button data-priority="urgent" class="btn btn-add urgent">Urgent</button>
+                    <button data-priority="high" class="btn btn-add high">High</button>
+                    <button data-priority="medium" class="btn btn-add medium">Medium</button>
+                    <button data-priority="low" class="btn btn-add low">Low</button>
                 </div>
             </div>
-            <div class="todo-list">
-                <div class="todo-item urgent">
-                    <h6 class="todo-item-date">31 décembre 2023 16:16</h6>
-                    <h2 class="todo-item-title">Tache 1</h2>
-                </div>
-                <div class="todo-item high">
-                    <h6 class="todo-item-date">31 décembre 2023 16:16</h6>
-                    <h2 class="todo-item-title">Tache 2</h2>
-                </div>
-                <div class="todo-item medium">
-                    <h6 class="todo-item-date">31 décembre 2023 16:16</h6>
-                    <h2 class="todo-item-title">Tache 3</h2>
-                </div>
-                <div class="todo-item low">
-                    <h6 class="todo-item-date">31 décembre 2023 16:16</h6>
-                    <h2 class="todo-item-title">Tache 4</h2>
-                </div>
+            <div class="todo-list" id="todo-list">
+
             </div>
         </div>
     </div>
